@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--head e a configuracao da pagina-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!--body e aonde os elemento aparece a tela -->
+<body style="padding-bottom: 500px;">
+    <!--header e um elemento que pode colocar logo varias coisa na pagina-->
+    
+    <header>
+       <h2>Minha marca  ou alguma coisa</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+        </nav>
+    </header>
+
+    <!--Tag de texto-->     
+    <!--Titulo vai de h1 ate h6 sendo que h1 so pode ser um em cada paginas os demais odem se repitir-->
+    <main>
+        <h1>Pagina da Web</h1>
+        <p>Pagina da Web</p>
+        <p>Este texto com tag <strong>strong</strong></strong> deixa <strong>a palavra em negrito</strong> </p>
+        <p>Este texto com tag <em> em</em></em> deixa a palavra<em> em italico</em> </p>
+    <!--Omagem e Link--> 
+    <img src="img/pexels-katja-592077.jpg" alt="Imagem com fundo com montanhas "/>
+    <p>
+        <a href="https://www.google.com.br">Google</a>
+     </p>
+     <p>
+        <a href="https://horadecodar.com.br/cursos-horadecodar/"
+            target="_blank">Hora do Codar
+        </a>
+     </p> 
+    </main> 
+     
+     <!--Exemplos de litas de tarefa desordenadas--> 
+     <!--Exemplos de litas de tarefa ordenadas-->
+     <!--Lista -->
+    
+     <h2 id="meu-titulo">Lista de Tarefa</h2>
+     <ul>        
+        <li class="item">Tomar banho cedo</li>
+        <li class="item">Escovar os dentes</li>
+        <li class="item">Ir trabalhar   </li>
+     </ul>   
+     <ol>
+        <li>Ligar a moto</li>
+        <li>Comprar pao</li>
+        <li>Comercar a trabalhar</li>
+     </ol> 
+     <!--Tabelas-->  
+    <table>
+        <tr>
+            <th>Nome:</th>
+            <th>Profissao:</th>
+        </tr>   
+            <tr>
+                <td>Sergio</td>
+                <td>Autonimo</td>
+            </tr>
+            <tr>   
+                <td>Gustavo</td>
+                <td>Progamador</td>
+            </tr>
+        </tr>     
+    </table>
+    <!--Formulario-->     
+     <h2>Formulario</h2>
+    <form action="/Processar_for.php" method="post" >
+        <input type="text" name="Nome Completo" placeholder="Digite seu nome"/>
+        <BR>
+        <textarea name="Comentarios" placeholder="Deixe um Comentarios"></textarea>
+        <BR>
+            <select name="Marca de carros">
+                <option>Ferrari</option> 
+                <option> BMW</option>   
+                <option> Fusca</option>              
+            </select>
+            <br>
+            <input type="email" name="email" placeholder="Digie seu email"/>
+            <br>
+            <input type="number" name="numeros " placeholder="Escolha um numero"/>
+            <br>
+            <input type="password" name="senha" placeholder="Digite sua senha"/>
+            <br>           
+            <input type="submit" value="Enviar" />
+    </form>
+    <!--Div e um elemento de bloco-->
+    <div>
+        <h4>Algum texto</h4> 
+        <p> Algum conteudo</p>
+    </div>    
+    <!--footer e rodapé-->
+    <footer ><strong>Rodapé</strong> do Site</footer>
+
+    </body>
+</html>
